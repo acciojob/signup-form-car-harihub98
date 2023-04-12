@@ -10,7 +10,60 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form method="get">
+	<div>
+	<label for="Name">Name</label><br>
+	<input type="text" name="name" id="#name" placeholder="Name" required>
+</div>
+	<br>
+<div>
+	<label for="Email">Email</label><br>
+	<input type="email" name="email" id="#email" placeholder="Email" required>
+</div>
+	<br>
+<div>
+     <label for="gender" aria-required>Gender</label><br>
+      Male: <input type="radio" name="gender" id="#gender_m"><br>
+      Female: <input type="radio" name="gender" id="#gender_f">
+        </div>
+	<br>
+<div>
+               <label for="car brand">Choose your car</label>
+               <select name="cars" id="#cars" aria-required>
+				   <option value="option">--Please choose an option--</option>
+                   <option value="BMW">BMW</option>
+                   <option value="Audi">Audi</option>
+                   <option value="Mercedez">Mercedez</option>
+               </select>
+           </div>
+	<br>
+	<div>
+	<label for="Age">Age</label><br>
+	<input type="number" name="age" id="#age" placeholder="Age" required>
+</div>
+	<br>
+	<div>
+            DOB <br><input type="date" id="#dob" required>
+           </div>
+	<br>
+	<div>
+            <label for="phoneNumber">Phone Number</label><br>
+            <input type="tel" name="number" id="#tel" placeholder="xxx-xxx-xxxx">
+        </div>
+	<br>
+	<div>
+            <label for="Passowrd">Password</label><br>
+            <input type="password" name="password" id="#password" placeholder="Passowrd" required>
+        </div>
+	<br>
+	<div>
+        I agree to the TOS: <input type="checkbox" name="tos" id="#tos"><br>
+    </div>
+	<br>
+	<div>
+        <input type="Submit" value="Submit">
+    </div>
+</form>
 </body>
 
 </html>
